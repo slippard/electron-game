@@ -1,0 +1,28 @@
+{
+  "name": "electron-game",
+  "version": "1.0.0",
+  "description": "some random electron project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slippard/electron-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slippard/electron-game/issues"
+  },
+  "homepage": "https://github.com/slippard/electron-game#readme",
+  "devDependencies": {
+    "electron": "^4.0.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2"
+  }
+}
