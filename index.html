@@ -5,14 +5,13 @@
     <title>Hello World!</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>
+    <h1 class="title">Hello World!</h1>
+    <button id="mainBtn">
+      Click Me 2
+    </button>
   </body>
 
-  <script>
-    require('./dist/renderer.js')
-  </script>
+<script>
+  require('./dist/renderer.js');
+</script>
 </html>
